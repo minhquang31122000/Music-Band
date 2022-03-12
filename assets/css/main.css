@@ -719,29 +719,16 @@ color: black;
     transition:1s ease;
 }
 .rotate.start{
-    animation: rotate .2s ease;
-    animation-iteration-count: 5;
+    animation: rotate .1s ease;
+    animation-iteration-count: 10;
 }
 @keyframes rotate {
-    0%{
-        transform: rotate(60deg)
-    }
-    20%{
-        transform: rotate(120deg)
-    }
-    40%{
-        transform: rotate(180deg)
-    }
-    60%{
-        transform: rotate(240deg)
-    }
-    80%{
-        transform: rotate(300deg)
-
-    }
-    100%{
-        transform: rotate(360deg)
-    }
+        0%{
+            transform:rotate(0deg);
+        }
+        100%{
+            transform:rotate(360deg);
+        }
 }
 
 @media (max-width:900px) and (min-width:650px)
